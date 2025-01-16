@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SantaBanta/static/css/main.fbaea77a.css",
-    "main.js": "/SantaBanta/static/js/main.1e752f2e.js",
+    "main.js": "/SantaBanta/static/js/main.cf948815.js",
     "static/media/SideBanner.png": "/SantaBanta/static/media/SideBanner.0c25aead68693f670f22.png",
     "static/media/banner-3.png": "/SantaBanta/static/media/banner-3.2e75fb7a15818d527c70.png",
     "static/media/banner-1.png": "/SantaBanta/static/media/banner-1.5d00c06ebb057b287f6c.png",
@@ -14,7 +14,6 @@
     "static/media/cat-4.png": "/SantaBanta/static/media/cat-4.5462cff6c1821944c2b7.png",
     "static/media/cat-5.png": "/SantaBanta/static/media/cat-5.aad30d7464c1b497bb8d.png",
     "static/media/download.png": "/SantaBanta/static/media/download.afd4cdd7803c56b3e9b9.png",
-    "static/media/redux.cjs": "/SantaBanta/static/media/redux.7edfc461ab353f1712ab.cjs",
     "static/media/category-1.svg": "/SantaBanta/static/media/category-1.7aac2ef6470b7dead9b42afa6ea4b911.svg",
     "static/media/icon-user.svg": "/SantaBanta/static/media/icon-user.abd84f71578227606591b08755e49d51.svg",
     "static/media/icon-cart.svg": "/SantaBanta/static/media/icon-cart.6fbcc20d25e292c25d52a0fddd4d1ae1.svg",
@@ -22,10 +21,10 @@
     "static/media/icon-compare.svg": "/SantaBanta/static/media/icon-compare.4f551b75d4c71206df00f57a3357dc05.svg",
     "index.html": "/SantaBanta/index.html",
     "main.fbaea77a.css.map": "/SantaBanta/static/css/main.fbaea77a.css.map",
-    "main.1e752f2e.js.map": "/SantaBanta/static/js/main.1e752f2e.js.map"
+    "main.cf948815.js.map": "/SantaBanta/static/js/main.cf948815.js.map"
   },
   "entrypoints": [
     "static/css/main.fbaea77a.css",
-    "static/js/main.1e752f2e.js"
+    "static/js/main.cf948815.js"
   ]
 }
