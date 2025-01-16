@@ -1,0 +1,109 @@
+.productThumb {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.productThumb:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.productThumb .imgWrapper img {
+  transition: all 0.2s ease-in-out;
+}
+
+.productThumb .imgWrapper {
+  position: relative;
+  
+}
+.productThumb .imgWrapper img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+  .productThumb:hover .imgWrapper .overlay{
+    opacity: 1;
+    transform: scale(1);
+    background:rgba(255,255,255,0.1);
+  }
+  .productThumb:hover .imgWrapper img {
+    transform: scale(1.2);
+  }
+  
+  .productThumb .imgWrapper .overlay .icon{
+    width: 20px;
+    height: 20px;
+  }
+  .overlay ul{background: #fff; width: 115px; height: auto; border-radius: 5px;}
+  .overlay ul li:last-child{border-right: none;}
+  .overlay ul li{margin: 0px; border-right: 1px solid #bce3c9;}
+  .overlay ul li a{display: block; padding: 6px;}
+
+
+.info .MuiRating-root {
+  font-size: 18px !important;
+}
+.info .refer-by {
+  font-size: 10px;
+}
+.info .info-text {
+  font-size: 12px;
+}
+.info .brand-name {
+  font-size: 12px;
+  color: #1c61e7;
+}
+.info .new-price {
+  font-size: 20px;
+}
+.info .btn {
+  color: #1c61e7;
+  background: #f1f1f6;
+}
+.info .btn .cart-icon {
+  width: 16px;
+}
+.info .btn:hover {
+ background: #1c61e7;
+  color: #fff;
+}
+.info .old-price {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+
+/* Add this to your CSS file, e.g., style.css */
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust the height to match the image size */
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

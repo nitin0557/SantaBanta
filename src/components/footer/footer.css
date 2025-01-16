@@ -1,0 +1,108 @@
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 9px;
+    right: 22px;
+    background-color: #fff;
+    color: #0000;
+    padding: 3px 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    border: 1px solid #101217;
+}
+.scroll-to-top svg {
+  fill: #000
+}
+
+.scroll-to-top:hover {
+  background-color: #1c61e7;
+  border: 1px solid #1c61e7;;
+}
+.scroll-to-top:hover svg{
+  fill: #fff;
+}
+
+
+.footerWrapper {
+    padding: 20px;
+    width: 100%;
+}
+.footerWrapper .footerBoxes .container-fluid{
+  padding: 0 32px;
+}
+.footerWrapper .footerBoxes .box {
+    padding: 16px;
+    background: #f4f6fa;
+    border-radius: 15px;
+}
+
+
+
+
+
+  
+
+
+.footerWrapper footer{padding: 48px 0;}
+.footerWrapper .footerBoxes .box img:hover{transform: translateY(-5px); transition: all 0.2 ease-in-out;}
+
+.footerWrapper .footerBoxes .box img{width: 40px; margin-right: 10px; }
+.footerWrapper .footerBoxes .box h4{font-size: 14px;margin-bottom: 6px;}
+.footerWrapper .footerBoxes .box p {font-size: 14px; opacity: 0.5;margin-bottom: 0px;}
+
+.footerWrapper footer .part1 img{width: 154px; height: auto;}
+
+.footerWrapper footer .part1 p{font-size: 14px; color: #7e7e7e;} 
+
+.footerWrapper footer .part2 ul {padding-left: 0;}
+
+.footerWrapper footer .part2 ul li{list-style: none; padding-left: 0; margin-bottom: 3px; line-height: 33px;}
+
+.footerWrapper footer .part2  h4{font-size: 18px;}
+.footerWrapper footer .part2 ul li  a{
+    text-decoration: none;     
+    color: #000;
+    font-size: 500;
+    font-size: 14px;
+    opacity: .8;
+    transition: all .2s ease-in-out;
+}
+
+.footerWrapper footer .part2 ul li a:hover{    
+    color: #24935f !important;
+    opacity: 1;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+footer .lastStrip .part3 ul {
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+footer .lastStrip .part3 ul li a {
+    align-items: center;
+    background: #1c61e7;
+    border-radius: 50%;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    transition: all .2s ease-in-out !important;
+    width: 35px;
+}
+
+footer .lastStrip .part3 h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+footer .lastStrip .part3 ul li a svg {
+    color: #fff !important;
+    font-size: 20px;
+}
+footer .lastStrip .part3 ul li a:hover {
+    background: #333;
+}
