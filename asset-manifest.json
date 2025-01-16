@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/SantaBanta/static/css/main.fbaea77a.css",
+    "main.js": "/SantaBanta/static/js/main.1e752f2e.js",
+    "static/media/SideBanner.png": "/SantaBanta/static/media/SideBanner.0c25aead68693f670f22.png",
+    "static/media/banner-3.png": "/SantaBanta/static/media/banner-3.2e75fb7a15818d527c70.png",
+    "static/media/banner-1.png": "/SantaBanta/static/media/banner-1.5d00c06ebb057b287f6c.png",
+    "static/media/banner-2.png": "/SantaBanta/static/media/banner-2.5f180836440bacefd545.png",
+    "static/media/newsletter.png": "/SantaBanta/static/media/newsletter.5931358dd220a40019fc.png",
+    "static/media/cat-1.png": "/SantaBanta/static/media/cat-1.ac89b9d18a5077eac3e8.png",
+    "static/media/logo.svg": "/SantaBanta/static/media/logo.31cfa8bd39e742dfddc21b78db2840cc.svg",
+    "static/media/cat-3.png": "/SantaBanta/static/media/cat-3.9fadc9e19d2826cec910.png",
+    "static/media/cat-2.png": "/SantaBanta/static/media/cat-2.fc1c1db18d79f5d98fe7.png",
+    "static/media/cat-4.png": "/SantaBanta/static/media/cat-4.5462cff6c1821944c2b7.png",
+    "static/media/cat-5.png": "/SantaBanta/static/media/cat-5.aad30d7464c1b497bb8d.png",
+    "static/media/download.png": "/SantaBanta/static/media/download.afd4cdd7803c56b3e9b9.png",
+    "static/media/redux.cjs": "/SantaBanta/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "static/media/category-1.svg": "/SantaBanta/static/media/category-1.7aac2ef6470b7dead9b42afa6ea4b911.svg",
+    "static/media/icon-user.svg": "/SantaBanta/static/media/icon-user.abd84f71578227606591b08755e49d51.svg",
+    "static/media/icon-cart.svg": "/SantaBanta/static/media/icon-cart.6fbcc20d25e292c25d52a0fddd4d1ae1.svg",
+    "static/media/icon-heart.svg": "/SantaBanta/static/media/icon-heart.ede823bb29fd363df7a6ed080cdd8d92.svg",
+    "static/media/icon-compare.svg": "/SantaBanta/static/media/icon-compare.4f551b75d4c71206df00f57a3357dc05.svg",
+    "index.html": "/SantaBanta/index.html",
+    "main.fbaea77a.css.map": "/SantaBanta/static/css/main.fbaea77a.css.map",
+    "main.1e752f2e.js.map": "/SantaBanta/static/js/main.1e752f2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbaea77a.css",
+    "static/js/main.1e752f2e.js"
+  ]
+}
