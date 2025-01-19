@@ -5,7 +5,7 @@ import GridViewIcon from "@mui/icons-material/GridView";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Link } from "react-router-dom";
 import HeadphonesIcon from "@mui/icons-material/Headphones";
-import Categort1 from "../../../assets/images/category-1.svg";
+import Categort1 from "../../../assets/images/category-1.png";
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 
 const Navbar = () => {

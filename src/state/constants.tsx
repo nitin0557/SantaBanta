@@ -303,5 +303,53 @@ export const fetchdata = {
         }
         ]
         }
+    ],
+    "browse": [
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        },
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        }
+    ],
+    "navigation":[
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        },
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        },
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        },
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        }
+    ],
+    "logo":[
+        {   "id": 1,
+            "enabled": 1,
+            "banner_img": "https://media.istockphoto.com/id/1232401725/photo/table-scene-of-assorted-take-out-or-delivery-foods-top-down-view-on-a-dark-wood-banner.jpg?s=1024x1024&w=is&k=20&c=JdFBjWIAJVT3okFE7nfb9yfwxpFi-a68E66pCNn03Ko=",
+            "start_date": "2025-01-01",
+            "end_date": "2025-12-31"
+        },
     ]
     }
