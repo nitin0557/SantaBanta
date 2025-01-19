@@ -64,7 +64,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'build'),
     compress: true,
-    port: 3000,  // You can change the port if needed
+    port: 3001,  // You can change the port if needed
     historyApiFallback: true,  // For handling React Router paths
   },
 

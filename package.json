@@ -2,7 +2,7 @@
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nitin0557.github.io/SantaBanta",
+  "homepage": "https://nitin0557.github.io/SantaBanta/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -44,8 +44,8 @@
     "webpack-dev-server": "^5.2.0"
   },
   "scripts": {
-    "start": "webpack serve --mode development ",
-    "build": "webpack  --mode production",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
