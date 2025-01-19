@@ -1,11 +1,15 @@
 import React from "react";
 import "./style.css";
 import Slider from "react-slick";
-import Cat1 from "../../assets/images/cat-1.png";
-import Cat2 from "../../assets/images/cat-2.png";
-import Cat3 from "../../assets/images/cat-3.png";
-import Cat4 from "../../assets/images/cat-4.png";
-import Cat5 from "../../assets/images/cat-5.png";
+import Cat1 from "../../assets/images/Hyderabadi.jpg";
+import Cat2 from "../../assets/images/lucknowi.jpg";
+import Cat3 from "../../assets/images/kolkata.jpg";
+import Cat4 from "../../assets/images/paneer-nawabi.jpg";
+import Cat5 from "../../assets/images/rolls.jpg";
+import Cat6 from "../../assets/images/Rumaliroti.jpg";
+import Cat7 from "../../assets/images/ChickenGheeRoast.jpg";
+
+
 import { useSelector } from "react-redux";
 
 
@@ -33,46 +37,34 @@ const CatSlider: React.FC = () => {
           <Slider {...settings} className="cat-slider-main">
             <div className="item">
               <div className="info"> <img src={Cat1} /></div>
-              <h5>Vegetables</h5>
+              <h5>Hyderabadi Biryani</h5>
             </div>
             <div className="item">
               <div className="info"> <img src={Cat2} /></div>
-              <h5>Strawberries</h5>
+              <h5>Lucknowi Biryani</h5>
             </div>
             <div className="item">
               <div className="info"> <img src={Cat3} /></div>
-              <h5>Dried Products</h5>
+              <h5>Kolkata Biryani</h5>
             </div>
             <div className="item">
               <div className="info"> <img src={Cat4} /></div>
-              <h5>Vegetables</h5>
+              <h5>Korma and Curries</h5>
             </div>
             <div className="item">
               <div className="info"> <img src={Cat5} /></div>
-              <h5>Strawberries</h5>
+              <h5>Rolls</h5>
             </div>
             <div className="item">
-              <div className="info"> <img src={Cat1} /></div>
-              <h5>Vegetables</h5>
+              <div className="info"> <img src={Cat6} /></div>
+              <h5>Breads and Extras</h5>
             </div>
+          
             <div className="item">
-              <div className="info"> <img src={Cat2} /></div>
-              <h5>Strawberries</h5>
+              <div className="info"> <img src={Cat7} /></div>
+              <h5>Kebas</h5>
             </div>
-            <div className="item">
-              <div className="info"> <img src={Cat3} /></div>
-              <h5>Dried Products</h5>
-            </div>
-            <div className="item">
-              <div className="info"> <img src={Cat4} /></div>
-              <h5>Vegetables</h5>
-            </div>
-            <div className="item">
-              <div className="info"> <img src={Cat5} /></div>
-              <h5>Strawberries</h5>
-            </div>
-            
-           
+          
            
           </Slider>
         </div>

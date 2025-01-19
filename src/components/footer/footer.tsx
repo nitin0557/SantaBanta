@@ -72,7 +72,7 @@ const Footer = () => {
                 Stay home & get your daily <br />
                 needs from our shop
               </h2>
-              <p>Start You'r Daily Shopping with Nest Mart</p>
+              <p>Start You'r Daily Shopping with Santa Banta Mart</p>
               <br />
               <Newsletter />
             </div>
@@ -131,7 +131,7 @@ const Footer = () => {
                 <HeadphonesOutlinedIcon /> Call Us: (+91) - 540-025-124553
               </p>
               <p>
-                <EmailOutlinedIcon /> Email: sale@Nest.com
+                <EmailOutlinedIcon /> Email: sale@SantaBanta.com
               </p>
               <p>
                 {" "}
@@ -255,7 +255,7 @@ const Footer = () => {
           <div className="row lastStrip">
               <div className="col-md-6 part_1 d-flex align-items-center">
                 <p className="mb-0">
-                  © 2024, Ecommerce Template All rights reserved
+                  © 2025,SantaBanta All rights reserved
                 </p>
               </div>
 

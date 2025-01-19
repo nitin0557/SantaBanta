@@ -88,7 +88,7 @@ const Home = () => {
                 {dataReducer.data.food_categories.map((category: any) =>
                   category.category_items.map((item: any) => (
                     <div className="item">
-                      <Product url={item.category_img} />
+                      <Product url={item.category_img} text={item.category_text} activeTab={"Recommended"} />
                     </div>
                   ))
                 )}
@@ -102,7 +102,7 @@ const Home = () => {
                     activeTab === category.category_name &&
                     category.category_items.map((item: any) => (
                       <div className="item">
-                        <Product url={item.category_img} />
+                        <Product url={item.category_img} text={item.category_text} activeTab={"Vegetarian"}/>
                       </div>
                     ))
                 )}
@@ -116,7 +116,7 @@ const Home = () => {
                     activeTab === category.category_name &&
                     category.category_items.map((item: any) => (
                       <div className="item">
-                        <Product url={item.category_img} />
+                        <Product url={item.category_img} text={item.category_text}  activeTab={"Non-Vegetarian"}/>
                       </div>
                     ))
                 )}
@@ -131,7 +131,7 @@ const Home = () => {
                       activeTab === category.category_name &&
                       category.category_items.map((item: any) => (
                         <div className="item">
-                          <Product url={item.category_img} />
+                          <Product url={item.category_img}  text={item.category_text} activeTab={activeTab} />
                         </div>
                       ))
                   )}
@@ -180,7 +180,7 @@ const Home = () => {
                           activeFeatureTab === category.category_name ?
                           (category.category_items.map((item: any) => (
                             <div className="item">
-                              <Product url={item.category_img} />
+                              <Product url={item.category_img}  text={item.category_text} activeTab={activeTab}/>
                             </div>
                           ))) : null))
                       

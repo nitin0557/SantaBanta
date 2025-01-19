@@ -14,10 +14,12 @@ import { fetchShopping } from "../../state/action/shopping.action";
 
 
 interface imageURL {
-  url: string
+  url: string;
+  text: string;
+  activeTab: string
 }
 
-const Product: React.FC<imageURL> = ({url}) => {
+const Product: React.FC<imageURL> = ({url,text,activeTab}) => {
   const dispatch = useDispatch<AppDispatch>();
   const { loading } = useSelector((state: any) => state);
     useEffect(() => {
@@ -74,8 +76,8 @@ const Product: React.FC<imageURL> = ({url}) => {
       </Link>
       {!loading && (
         <div className="info">
-          <span className="info-text mb-1">Snack</span>
-          <h4>Seeds of Change Organic Quinoa, Brown, & Red Rice</h4>
+          <span className="info-text mb-1">{activeTab}</span>
+          <h4>{text}</h4>
           <Rating
             name="half-rating-read rating"
             defaultValue={2.5}
@@ -84,7 +86,7 @@ const Product: React.FC<imageURL> = ({url}) => {
           />
           <div className="d-flex align-items-center mb-1">
             <span className="refer-by me-1">By</span>
-            <span className="text-g brand-name">NestFood</span>
+            <span className="text-g brand-name">SantaBanta</span>
           </div>
           <div className="d-flex align-items-center">
             <span className="text-g new-price fw-bold me-2">$28.85</span>

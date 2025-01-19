@@ -86,11 +86,11 @@ const Header: React.FC = () => {
     <div className="headerWrapper" ref={headerRef}>
       <header>
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-sm-2 logo">
+          <div className="row h-100">
+            <div className="col-sm-2 logo h-100">
               <img src={Logo} alt="logo" />
             </div>
-            <div className="col-sm-5">
+            <div className="col-sm-5 h-100">
               <div className="headerSearch d-flex align-items-center">
                 <Select data={categoryData} placeholder="All Categories" />
                 <div className="search">
@@ -100,14 +100,14 @@ const Header: React.FC = () => {
               </div>
             </div>
             
-            <div className="col-sm-5 d-flex">
+            <div className="col-sm-5 d-flex h-100">
               <div className="ml-auto d-flex ">
                 <div className="countryWrapper">
                   <Select data={countryCode} placeholder="All locations" />
                 </div>
               </div>
               <ClickAwayListener onClickAway={handleClickAway}>
-                <div className="headerTabs" onClick={() => setIsOpenSelect(!isOpenSelect)}>
+                <div className="headerTabs" >
                   <div className="list-inline-item">
                     <span className="badge"><img src={iconCompare} alt="Compare" /></span>
                     <span className="inline-text">Compare</span>
@@ -121,7 +121,7 @@ const Header: React.FC = () => {
                     <span className="inline-text">Cart</span>
                   </div>
                   <div className="list-inline-item account">
-                    <span className="badge"><img src={iconUser} alt="Account" /></span>
+                    <span className="badge" onClick={() => setIsOpenSelect(!isOpenSelect)}><img src={iconUser} alt="Account" /></span>
                     <span className="inline-text">Account</span>
 
                     {isOpenSelect && (

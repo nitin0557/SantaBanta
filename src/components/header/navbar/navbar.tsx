@@ -5,7 +5,7 @@ import GridViewIcon from "@mui/icons-material/GridView";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Link } from "react-router-dom";
 import HeadphonesIcon from "@mui/icons-material/Headphones";
-import Categort1 from "../../../assets/images/category-1.png";
+import Categort1 from "../../../assets/images/lucknowi.jpg";
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 
 const Navbar = () => {
@@ -26,7 +26,6 @@ const Navbar = () => {
                 {isOpen ?  <KeyboardArrowUpOutlinedIcon/> : <KeyboardArrowDownIcon />}
               </span>
             </Button>
-
           
           </div>
           {isOpen && (
@@ -34,20 +33,20 @@ const Navbar = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
-                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
+                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/> Veg Matka Biryani</Link> </li>
+                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Veg Handi Biryani</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Veg Hyderabadi Biryani</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Paneer Tikka </Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Paneer Makhani Biryani</Link> </li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                   <ul className="mb-0">
-                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
-                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
+                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>   Eggilicious Biryani</Link> </li>
+                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Chicken Tikka Biryani</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Chicken Matka Biryani</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Chicken Afghani Biryani</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Chicken Potli Biryani</Link> </li>
                     </ul>
                   </div>
                 </div>
@@ -88,102 +87,102 @@ const Navbar = () => {
                   <div className="megaDropdownMenu">
                     <div className="row">
                       <div className="col">
-                        <h4>Fruit &amp; Vegetables</h4>
+                        <h4>Vegetarian</h4>
                         <ul>
                           <li>
                             <a href="shop-product-right.html">
-                              Meat &amp; Poultry
+                            Veg Matka Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Fresh Vegetables
+                            Veg Handi Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Herbs &amp; Seasonings
+                            Veg Potli Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Cuts &amp; Sprouts
+                            Veg Hyderabadi Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Exotic Fruits &amp; Veggies
+                            Paneer Tikka Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Packaged Produce
+                            Paneer Makhani Biryani
                             </a>
                           </li>
                         </ul>
                       </div>
                       <div className="col">
-                        <h4> Breakfast &amp; Dairy</h4>
+                        <h4> Non-Vegetarian</h4>
                         <ul>
                           <li>
                             <a href="shop-product-right.html">
-                              Milk &amp; Flavoured Milk
+                            Eggilicious Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Butter and Margarine
+                            Chicken Tikka Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Eggs Substitutes
+                            Chicken Matka Biryani
                             </a>
                           </li>
                           <li>
-                            <a href="shop-product-right.html">Marmalades</a>
+                            <a href="shop-product-right.html">Chicken Handi Biryani</a>
                           </li>
                           <li>
-                            <a href="shop-product-right.html">Sour Cream</a>
+                            <a href="shop-product-right.html">Chicken Hyderabadi Biryani</a>
                           </li>
                           <li>
-                            <a href="shop-product-right.html">Cheese</a>
+                            <a href="shop-product-right.html">Chicken Afghani Biryani</a>
                           </li>
                         </ul>
                       </div>
                       <div className="col">
-                        <h4>Meat &amp; Seafood</h4>
+                        <h4>BestSellers</h4>
                         <ul>
                           <li>
                             <a href="shop-product-right.html">
-                              Breakfast Sausage
+                            Mutton Shahi Biryani
                             </a>
                           </li>
                           <li>
-                            <a href="shop-product-right.html">Dinner Sausage</a>
+                            <a href="shop-product-right.html">Mutton Handi Biryani</a>
                           </li>
                           <li>
-                            <a href="shop-product-right.html">Chicken</a>
-                          </li>
-                          <li>
-                            <a href="shop-product-right.html">
-                              Sliced Deli Meat
-                            </a>
+                            <a href="shop-product-right.html">Mutton Matka Biryani</a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Wild Caught Fillets
+                            Prawns Biryani
                             </a>
                           </li>
                           <li>
                             <a href="shop-product-right.html">
-                              Crab and Shellfish
+                            Fish Tikka Biryani
+                            </a>
+                          </li>
+                          <li>
+                            <a href="shop-product-right.html">
+                              Spicy Mutton Biryani
                             </a>
                           </li>
                         </ul>
                       </div>
                       <div className="col">
-                        <img src="https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-menu.png" />
+                        <img src="http://localhost:3000/assets/images/Hyderabadi.ab2c3580.jpg" />
                       </div>
                     </div>
                   </div>

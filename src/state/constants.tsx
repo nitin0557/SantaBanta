@@ -153,21 +153,21 @@ export const fetchdata = {
     "category": "veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Veg Curry"
+    "category_text": "Veg Hyederabadi Biryani"
     },
     {
     "id": 12121212,
     "category": "veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Veg Curry"
+    "category_text": "Veg Lucknowi Biryani"
     },
     {
     "id": 12121212,
     "category": "veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Veg Curry"
+    "category_text": "Veg kathal Biryani"
     }
     ]
     },
@@ -179,21 +179,21 @@ export const fetchdata = {
     "category": "Non-Veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/WhatsApp%20Image%202023-12-20%20at%203.30.01%20PM.jpeg",
     "category_link": "",
-    "category_text": "Non-Veg Curry"
+    "category_text": "Boneless Biryani"
     },
     {
     "id": 12121212,
     "category": "Non-Veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/WhatsApp%20Image%202023-12-20%20at%203.30.01%20PM.jpeg",
     "category_link": "",
-    "category_text": "Non-Veg Curry"
+    "category_text": "Handi Biryani"
     },
     {
     "id": 12121212,
     "category": "Non-Veg",
     "category_img": "https://mis.rezolpos.in/images/catimg/WhatsApp%20Image%202023-12-20%20at%203.30.01%20PM.jpeg",
     "category_link": "",
-    "category_text": "Non-Veg Curry"
+    "category_text": "Mutton Biryani"
     }
     ]
     },
@@ -205,21 +205,21 @@ export const fetchdata = {
     "category": "best-sellers",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Chicken Biryani"
+    "category_text": "Chicken  Boneless Biryani"
     },
     {
     "id": 12121212,
     "category": "best-sellers",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Chicken Biryani"
+    "category_text": "Chicken Dum Biryani"
     },
     {
     "id": 12121212,
     "category": "best-sellers",
     "category_img": "https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg",
     "category_link": "",
-    "category_text": "Chicken Biryani"
+    "category_text": "Chicken 65 Biryani"
     }
     ]
     }
