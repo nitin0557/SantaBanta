@@ -34,7 +34,7 @@ const Product: React.FC<imageURL> = ({url,text,activeTab}) => {
   )}
   return (
     <div className="productThumb">
-      <Link to="/">
+      <Link to="/SantaBanta">
         <div className="imgWrapper">
         {loading ? (
             <div className="loader-wrapper">
