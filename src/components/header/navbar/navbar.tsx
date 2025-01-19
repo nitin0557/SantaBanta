@@ -34,20 +34,20 @@ const Navbar = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <ul className="mb-0">
-                      <li className="d-flex align-items-center mb-2 category"><Link to="/SantaBanta"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
-                      <li  className="d-flex align-items-center mb-2 category"><Link to="/SantaBanta"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
+                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
+                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
                   <ul className="mb-0">
-                      <li className="d-flex align-items-center mb-2 category"><Link to="/SantaBanta"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
-                      <li  className="d-flex align-items-center mb-2 category"><Link to="/SantaBanta"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
-                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/SantaBanta"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
+                      <li className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Milks and Dairies</Link> </li>
+                      <li  className="d-flex align-items-center mb-2 category"><Link to="/"> <img src={Categort1} className="me-3"/>Clothing & beauty</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category" > <Link to="/"><img src={Categort1} className="me-3"/>Pet Foods & Toy</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category"> <Link to="/"><img src={Categort1} className="me-3"/>Baking material</Link> </li>
+                      <li  className=" d-flex align-items-center mb-2 category "> <Link to="/"><img src={Categort1} className="me-3"/>Fresh Fruit</Link> </li>
                     </ul>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <ul className="list list-inline mb-0">
                 <li className="list-inline-item home">
                   <Button>
-                    <Link to="/SantaBanta">Home</Link>
+                    <Link to="/">Home</Link>
                   </Button>
                 </li>
                 <li className="list-inline-item about">
@@ -71,17 +71,17 @@ const Navbar = () => {
                 </li>
                 <li className="list-inline-item shop">
                   <Button>
-                    <Link to="/SantaBanta">Shop</Link>
+                    <Link to="/">Shop</Link>
                   </Button>
                 </li>
                 <li className="list-inline-item vendors">
                   <Button>
-                    <Link to="/SantaBanta">Vendors</Link>
+                    <Link to="/">Vendors</Link>
                   </Button>
                 </li>
                 <li className="list-inline-item mega-menu position-static">
                   <Button>
-                    <Link to="/SantaBanta">
+                    <Link to="/">
                       Mega Menu <KeyboardArrowDownIcon />
                     </Link>
                   </Button>
@@ -191,12 +191,12 @@ const Navbar = () => {
                 <li className="list-inline-item blog">
                   <Button>
                     {" "}
-                    <Link to="/SantaBanta">Blog</Link>
+                    <Link to="/">Blog</Link>
                   </Button>
                 </li>
                 <li className="list-inline-item pages">
                   <Button>
-                    <Link to="/SantaBanta">
+                    <Link to="/">
                       Pages <KeyboardArrowDownIcon />
                     </Link>
                   </Button>
@@ -206,84 +206,84 @@ const Navbar = () => {
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">About Us</Link>
+                        <Link to="/">About Us</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Contact</Link>
+                        <Link to="/">Contact</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">My Account</Link>
+                        <Link to="/">My Account</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Login</Link>
+                        <Link to="/">Login</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Register</Link>
+                        <Link to="/">Register</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Forgot password</Link>
+                        <Link to="/">Forgot password</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Reset password</Link>
+                        <Link to="/">Reset password</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Privacy Policy</Link>
+                        <Link to="/">Privacy Policy</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Purchase Guide</Link>
+                        <Link to="/">Purchase Guide</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">Terms of Service</Link>
+                        <Link to="/">Terms of Service</Link>
                       </Button>{" "}
                     </li>
                     <li className="list-item">
                       {" "}
                       <Button>
                         {" "}
-                        <Link to="/SantaBanta">404 Page</Link>
+                        <Link to="/">404 Page</Link>
                       </Button>{" "}
                     </li>
                   </ul>
                 </li>
                 <li className="list-inline-item contact">
                   <Button>
-                    <Link to="/SantaBanta">Contact</Link>
+                    <Link to="/">Contact</Link>
                   </Button>
                 </li>
               </ul>

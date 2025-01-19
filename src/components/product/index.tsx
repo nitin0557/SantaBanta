@@ -32,7 +32,7 @@ const Product: React.FC<imageURL> = ({url}) => {
   )}
   return (
     <div className="productThumb">
-      <Link to="/SantaBanta">
+      <Link to="/">
         <div className="imgWrapper">
         {loading ? (
             <div className="loader-wrapper">

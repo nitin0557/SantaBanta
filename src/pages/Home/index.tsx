@@ -60,22 +60,22 @@ const Home = () => {
 
             <ul className="list list-inline ms-auto">
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleTabClick("All")}>
+                <Link to="/" onClick={() => handleTabClick("All")}>
                   All
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleTabClick("Veg")}>
+                <Link to="/" onClick={() => handleTabClick("Veg")}>
                   Veg
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleTabClick("Non-Veg")}>
+                <Link to="/" onClick={() => handleTabClick("Non-Veg")}>
                   Non-Veg
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleTabClick("Best-Sellers")}>
+                <Link to="/" onClick={() => handleTabClick("Best-Sellers")}>
                   Best-Sellers
                 </Link>
               </li>
@@ -148,17 +148,17 @@ const Home = () => {
 
             <ul className="list list-inline ms-auto">
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleFeaturedTabClick("Featured")}>
+                <Link to="/" onClick={() => handleFeaturedTabClick("Featured")}>
                   Featured{" "}
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleFeaturedTabClick("Popular")}>
+                <Link to="/" onClick={() => handleFeaturedTabClick("Popular")}>
                   Popular
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link to="/SantaBanta" onClick={() => handleFeaturedTabClick("Newly-Added")}>
+                <Link to="/" onClick={() => handleFeaturedTabClick("Newly-Added")}>
                   New Added
                 </Link>
               </li>
