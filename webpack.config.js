@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   // The mode for Webpack: development or production
-  mode: 'development', // Change to 'production' for production build
+  mode: 'production', // Change to 'production' for production build
 
   // Entry point of the application (your main TypeScript file)
   entry: './src/index.tsx',
