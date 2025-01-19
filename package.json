@@ -2,7 +2,7 @@
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://nitin0557.github.io/SantaBanta",
+  "homepage": "https://nitin0557.github.io/SantaBanta",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -22,6 +22,8 @@
     "react-slick": "^0.30.3",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
+    "svg-url-loader": "^8.0.0",
+    "url-loader": "^4.1.1",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
@@ -32,15 +34,21 @@
     "@types/react-dom": "^18.0.0",
     "@types/react-slick": "^0.23.13",
     "@types/testing-library__react": "^10.2.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.3",
     "redux-devtools-extension": "^2.13.9",
-    "typescript": "^5.7.2"
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

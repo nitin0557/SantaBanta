@@ -8,7 +8,6 @@ import { Provider } from 'react-redux';
 import { applyMiddleware, compose, createStore } from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import rootReducer from './rootReducer';
-import { composeWithDevTools } from 'redux-devtools-extension';
 import { Actiontypes } from './state/action/shopping.action';
 
 export type AppDispatch = ThunkDispatch<any, void, Actiontypes>;
