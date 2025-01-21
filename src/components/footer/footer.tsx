@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="container-fluid part1">
           <div className="row">
             <div className="col-sm-3">
-              <Link to="/SantaBanta">
+              <Link to="/">
                 {" "}
                 <img src={logo} alt="image" />
               </Link>
@@ -144,51 +144,25 @@ const Footer = () => {
                   <h4>Company</h4>
                   <ul className="footer-list mb-sm-5 mb-md-0">
                     <li>
-                      <Link to="/SantaBanta">About Us</Link>
+                      <Link to="/">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Delivery Information</Link>
+                      <Link to="/">Delivery Information</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Privacy Policy</Link>
+                      <Link to="/">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Terms &amp; Conditions</Link>
+                      <Link to="/">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Contact Us</Link>
+                      <Link to="/">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Support Center</Link>
+                      <Link to="/">Support Center</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Careers</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col">
-                  <h4>Company</h4>
-                  <ul className="footer-list mb-sm-5 mb-md-0">
-                    <li>
-                      <Link to="/SantaBanta">About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Delivery Information</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Privacy Policy</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Terms &amp; Conditions</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Contact Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Support Center</Link>
-                    </li>
-                    <li>
-                      <Link to="/SantaBanta">Careers</Link>
+                      <Link to="/">Careers</Link>
                     </li>
                   </ul>
                 </div>
@@ -196,25 +170,25 @@ const Footer = () => {
                   <h4>Company</h4>
                   <ul className="footer-list mb-sm-5 mb-md-0">
                     <li>
-                      <Link to="/SantaBanta">About Us</Link>
+                      <Link to="/">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Delivery Information</Link>
+                      <Link to="/">Delivery Information</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Privacy Policy</Link>
+                      <Link to="/">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Terms &amp; Conditions</Link>
+                      <Link to="/">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Contact Us</Link>
+                      <Link to="/">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Support Center</Link>
+                      <Link to="/">Support Center</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Careers</Link>
+                      <Link to="/">Careers</Link>
                     </li>
                   </ul>
                 </div>
@@ -222,25 +196,51 @@ const Footer = () => {
                   <h4>Company</h4>
                   <ul className="footer-list mb-sm-5 mb-md-0">
                     <li>
-                      <Link to="/SantaBanta">About Us</Link>
+                      <Link to="/">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Delivery Information</Link>
+                      <Link to="/">Delivery Information</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Privacy Policy</Link>
+                      <Link to="/">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Terms &amp; Conditions</Link>
+                      <Link to="/">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Contact Us</Link>
+                      <Link to="/">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Support Center</Link>
+                      <Link to="/">Support Center</Link>
                     </li>
                     <li>
-                      <Link to="/SantaBanta">Careers</Link>
+                      <Link to="/">Careers</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col">
+                  <h4>Company</h4>
+                  <ul className="footer-list mb-sm-5 mb-md-0">
+                    <li>
+                      <Link to="/">About Us</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Delivery Information</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Privacy Policy</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Terms &amp; Conditions</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Support Center</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Careers</Link>
                     </li>
                   </ul>
                 </div>
