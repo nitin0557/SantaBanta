@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SantaBanta/static/css/main.f541a6eb.css",
+    "main.js": "/SantaBanta/static/js/main.ea7463e1.js",
+    "static/media/SideBanner.png": "/SantaBanta/static/media/SideBanner.0c25aead68693f670f22.png",
+    "static/media/rolls.jpg": "/SantaBanta/static/media/rolls.19f7157a9cb3f6ad492a.jpg",
+    "static/media/Hyderabadi.jpg": "/SantaBanta/static/media/Hyderabadi.ab2c358089c0198d41ef.jpg",
+    "static/media/kolkata.jpg": "/SantaBanta/static/media/kolkata.3810a22bb46d8a15d4b3.jpg",
+    "static/media/banner-3.png": "/SantaBanta/static/media/banner-3.2e75fb7a15818d527c70.png",
+    "static/media/banner-1.png": "/SantaBanta/static/media/banner-1.5d00c06ebb057b287f6c.png",
+    "static/media/banner-2.png": "/SantaBanta/static/media/banner-2.5f180836440bacefd545.png",
+    "static/media/lucknowi.jpg": "/SantaBanta/static/media/lucknowi.65bce3604789a413a2df.jpg",
+    "static/media/Rumaliroti.jpg": "/SantaBanta/static/media/Rumaliroti.5cfef49335754eb18b8a.jpg",
+    "static/media/paneer-nawabi.jpg": "/SantaBanta/static/media/paneer-nawabi.abc3f8c2d3e49fd04988.jpg",
+    "static/media/ChickenGheeRoast.jpg": "/SantaBanta/static/media/ChickenGheeRoast.b2ab00e55793cd4940f6.jpg",
+    "static/media/newsletter.png": "/SantaBanta/static/media/newsletter.5931358dd220a40019fc.png",
+    "static/media/download.png": "/SantaBanta/static/media/download.afd4cdd7803c56b3e9b9.png",
+    "index.html": "/SantaBanta/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.f541a6eb.css",
+    "static/js/main.ea7463e1.js"
+  ]
+}
