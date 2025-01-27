@@ -182,7 +182,7 @@ const Navbar = () => {
                         </ul>
                       </div>
                       <div className="col">
-                        <img src="http://localhost:3000/assets/images/Hyderabadi.ab2c3580.jpg" />
+                        <img src="https://mis.rezolpos.in/images/catimg/paneer-nawabi.jpg" />
                       </div>
                     </div>
                   </div>
